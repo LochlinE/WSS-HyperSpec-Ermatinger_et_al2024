@@ -15,7 +15,7 @@ names(refs)[2:2152] <- c(350:2500)
 refs[2:2152] <- lapply(refs[2:2152],as.numeric)
 
 ####################### define IBRA 
-# translated to the R language from: https://github.com/NISL-MSU/HSI-BandSelection
+# translated to the R language as described in https://doi.org/10.3390/rs13183649 (repo: https://github.com/NISL-MSU/HSI-BandSelection)
 
 IBRA <- function(spectral_matrix, threshold) { 
   if (!is.numeric(spectral_matrix)) {
