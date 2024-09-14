@@ -4,7 +4,7 @@ library(dplyr)
 library(ggplot2)
 library(ggridges)
 
-infestationData <- read_xlsx("C:\\Users\\lochl\\OneDrive - Montana State University\\Documents\\SawflyResearch\\Analysis\\ProximalSensing2023\\ProximalInfestationData2023.xlsx")
+infestationData <- read_xlsx("Data/ProximalInfestationData2023.xlsx")
 
 modeledData <- infestationData %>%
   filter(rep %in% c("G","H","I","J")) %>%
