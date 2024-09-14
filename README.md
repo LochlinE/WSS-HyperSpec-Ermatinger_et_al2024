@@ -1,4 +1,4 @@
-**** REMOVE FILES PATHS IN ALL CODES BEFORE PUBLISHING ****
+**** ADD PAPER DOI BEFORE PUBLISHING ****
 
 Data and code repository for Multitemporal Hyperspectral Characterization of Wheat Infested by Wheat Stem Sawfly, Cephus cinctus Norton, Ermatinger et al. 2024.
 The intended purpose of this repository is to provide transparency and reproducibility of analysis for interested parties.  Figures presented in the article 
