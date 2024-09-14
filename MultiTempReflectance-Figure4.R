@@ -7,7 +7,7 @@ library(tidyr)
 library(plotly)
 library(extrafont)
 
-refs <- read.csv2(file = "C:\\Users\\lochl\\OneDrive - Montana State University\\Documents\\SawflyResearch\\Analysis\\ProximalSensing2023\\IBRA\\ReflectanceData23.csv", header = T, sep = "," )
+refs <- read.csv2(file = "Data/ReflectanceData23.csv", header = T, sep = "," )
 names(refs)[2:2152] <- c(350:2500)
 refs[2:2152] <- lapply(refs[2:2152],as.numeric)
 
