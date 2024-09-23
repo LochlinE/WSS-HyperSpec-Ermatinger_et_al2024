@@ -75,11 +75,6 @@ infNamesARD <- infestationData %>%
   select(plantName,sigInf.Prop) %>% 
   arrange(desc(sigInf.Prop))
 
-# split training and testing data 85:15
-# 78 *.80 = 62.4 ~ 62
-# 78 - 62 = 16 
-# 78 / 16 = 4.875
-
 TestNames <- infNamesARD$plantName[seq(from = 1,
                                        to = length(infNamesARD$plantName),
                                        by = 7)]
